@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OtasV3", "OtasV3\OtasV3.csproj", "{3A0163DC-7057-4877-8178-59293B050AE0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OtasV3.Domain", "OtasV3.Domain\OtasV3.Domain.csproj", "{FA6525F4-B391-4D68-9FBC-85F372CC3575}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OtasV3.Repository", "OtasV3.Repository\OtasV3.Repository.csproj", "{3DDC739B-B44D-4AAE-AEFE-828362896D27}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OtasV3.UnitTests", "OtasV3.UnitTests\OtasV3.UnitTests.csproj", "{47F2B727-56D1-4171-A526-A12ACF01A426}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3A0163DC-7057-4877-8178-59293B050AE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A0163DC-7057-4877-8178-59293B050AE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A0163DC-7057-4877-8178-59293B050AE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A0163DC-7057-4877-8178-59293B050AE0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA6525F4-B391-4D68-9FBC-85F372CC3575}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA6525F4-B391-4D68-9FBC-85F372CC3575}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA6525F4-B391-4D68-9FBC-85F372CC3575}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA6525F4-B391-4D68-9FBC-85F372CC3575}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DDC739B-B44D-4AAE-AEFE-828362896D27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DDC739B-B44D-4AAE-AEFE-828362896D27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DDC739B-B44D-4AAE-AEFE-828362896D27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DDC739B-B44D-4AAE-AEFE-828362896D27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47F2B727-56D1-4171-A526-A12ACF01A426}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47F2B727-56D1-4171-A526-A12ACF01A426}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47F2B727-56D1-4171-A526-A12ACF01A426}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47F2B727-56D1-4171-A526-A12ACF01A426}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
