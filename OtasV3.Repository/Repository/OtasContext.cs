@@ -11,15 +11,15 @@ namespace OtasV3.Repository.Repository
 {
     public class OtasContext : IdentityDbContext<ApplicationUser>, IOtasContext
     {
-        public DbSet<Class> Classes { get; set; }
-        public DbSet<Department> Departments { get; set; }
-        public DbSet<OtasFeedback> OtasFeedbacks { get; set; }
-        public DbSet<Semester> Semesters { get; set; }
-        public DbSet<Student> Students { get; set; }
-        public DbSet<Subject> Subjects { get; set; }
-        public DbSet<Teacher> Teachers { get; set; }
-        public DbSet<TeacherFeedback> TeacherFeedbacks { get; set; }
-        public DbSet<TeacherFeeedbackSummary> TeacherFeeedbackSummaries { get; set; }
+        public IDbSet<Class> Classes { get; set; }
+        public IDbSet<Department> Departments { get; set; }
+        public IDbSet<OtasFeedback> OtasFeedbacks { get; set; }
+        public IDbSet<Semester> Semesters { get; set; }
+        public IDbSet<Student> Students { get; set; }
+        public IDbSet<Subject> Subjects { get; set; }
+        public IDbSet<Teacher> Teachers { get; set; }
+        public IDbSet<TeacherFeedback> TeacherFeedbacks { get; set; }
+        public IDbSet<TeacherFeeedbackSummary> TeacherFeeedbackSummaries { get; set; }
 
         public OtasContext() : base("DefaultConnection")
         {

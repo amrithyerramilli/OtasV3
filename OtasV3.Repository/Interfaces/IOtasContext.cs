@@ -10,14 +10,14 @@ namespace OtasV3.Repository.Interfaces
 {
     public interface IOtasContext
     {
-        DbSet<Class> Classes { get; set; }
-        DbSet<Department> Departments { get; set; }
-        DbSet<OtasFeedback> OtasFeedbacks { get; set; }
-        DbSet<Semester> Semesters { get; set; }
-        DbSet<Student> Students { get; set; }
-        DbSet<Subject> Subjects { get; set; }
-        DbSet<Teacher> Teachers { get; set; }
-        DbSet<TeacherFeedback> TeacherFeedbacks { get; set; }
-        DbSet<TeacherFeeedbackSummary> TeacherFeeedbackSummaries { get; set; }
+        IDbSet<Class> Classes { get; set; }
+        IDbSet<Department> Departments { get; set; }
+        IDbSet<OtasFeedback> OtasFeedbacks { get; set; }
+        IDbSet<Semester> Semesters { get; set; }
+        IDbSet<Student> Students { get; set; }
+        IDbSet<Subject> Subjects { get; set; }
+        IDbSet<Teacher> Teachers { get; set; }
+        IDbSet<TeacherFeedback> TeacherFeedbacks { get; set; }
+        IDbSet<TeacherFeeedbackSummary> TeacherFeeedbackSummaries { get; set; }
     }
 }
