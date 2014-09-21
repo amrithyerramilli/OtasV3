@@ -3,11 +3,9 @@ using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin;
 using Microsoft.Owin.Security.Cookies;
-using Microsoft.Owin.Security.Google;
 using OtasV3.Domain.Entities;
 using OtasV3.Repository.Repository;
 using Owin;
-using OtasV3.Models;
 
 namespace OtasV3
 {

@@ -192,6 +192,10 @@
     <Compile Include="Migrations\201409210610223_Update AdminUser PlainTextPassword.Designer.cs">
       <DependentUpon>201409210610223_Update AdminUser PlainTextPassword.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201409210704553_ModifyUsers.cs" />
+    <Compile Include="Migrations\201409210704553_ModifyUsers.Designer.cs">
+      <DependentUpon>201409210704553_ModifyUsers.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
@@ -306,6 +310,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201409210610223_Update AdminUser PlainTextPassword.resx">
       <DependentUpon>201409210610223_Update AdminUser PlainTextPassword.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201409210704553_ModifyUsers.resx">
+      <DependentUpon>201409210704553_ModifyUsers.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

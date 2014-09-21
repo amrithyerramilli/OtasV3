@@ -1,7 +1,7 @@
 ﻿using Microsoft.Owin;
 using Owin;
 
-[assembly: OwinStartupAttribute(typeof(OtasV3.Startup))]
+[assembly: OwinStartup(typeof(OtasV3.Startup))]
 namespace OtasV3
 {
     public partial class Startup

@@ -1,16 +1,12 @@
+using System;
 using System.Configuration;
+using System.Data.Entity.Migrations;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.EntityFramework;
 using OtasV3.Domain.Entities;
-using OtasV3.Models;
 
 namespace OtasV3.Migrations
 {
-    using System;
-    using System.Data.Entity;
-    using System.Data.Entity.Migrations;
-    using System.Linq;
-
     internal sealed class Configuration : DbMigrationsConfiguration<OtasV3.Repository.Repository.OtasContext>
     {
         public Configuration()
